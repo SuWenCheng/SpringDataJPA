@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8080/api/user/add
+Content-Type: application/json
+
+{
+    "name":"jack",
+    "email":"123@126.com"
+}
+#######
+GET http://127.0.0.1:8080/api/user/all?size=3&page=0
+###
+
