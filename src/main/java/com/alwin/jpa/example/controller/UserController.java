@@ -1,5 +1,7 @@
-package com.alwin.jpa.example;
+package com.alwin.jpa.example.controller;
 
+import com.alwin.jpa.example.bean.User;
+import com.alwin.jpa.example.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
