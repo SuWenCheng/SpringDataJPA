@@ -1,4 +1,4 @@
-package com.alwin.jpa.example.bean;
+package com.alwin.jpa.example.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,6 +21,9 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private String lastName;
+    private String lastname;
     private String email;
+    private String sex;
+    private String address;
+    private Integer age;
 }
